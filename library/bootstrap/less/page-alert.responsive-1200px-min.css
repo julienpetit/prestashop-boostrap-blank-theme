@@ -1,0 +1,6 @@
+@media (min-width: 1200px) {
+  .page-alert .alert {
+    width: 700px;
+    margin-left: -375px;
+  }
+}

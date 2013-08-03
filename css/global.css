@@ -1,0 +1,113 @@
+
+
+.woo-font {
+	font-family: 'woothemesfont';
+}
+
+.well-white {
+
+	border: 1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4x;
+	height: auto;
+	font-size: .8em;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.align-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.align-top {
+	vertical-align: top !important;
+}
+
+body > footer {
+	width: 100%;
+	background-color: #CCC;
+}
+
+.block-title a, .block-title { color: #444;}
+
+.block_hidden_only_for_screen { display: none; } 
+
+#attributes .attribute_list #color_to_pick_list {
+	width: auto!important;
+}
+
+
+
+body {
+	margin-top: 10px!important;
+	background-color: #EEE!important;
+}
+
+div#header, div#content {
+	background-color: white;
+	padding: 0 10px; 
+}
+
+div#content {
+
+}
+
+/*#header_logo {
+	position: absolute;
+	padding: 20px 0;
+}
+*/
+
+
+.text-right { text-align: right}
+
+
+
+@font-face {
+	font-family: 'WooThemes_ecommerce';
+	src: url('../library/woothemes-e-commerce-icons/font/woothemes_ecommerce.ttf') format('truetype'),
+	url('../library/woothemes-e-commerce-icons/font/woothemes_ecommerce.svg#SVGFontRegular') format('svg');
+}
+
+.glyph{
+	display: inline-block;
+	width: 120px;
+	margin: 10px;
+	text-align: center;
+	vertical-align: top;
+	background: #eee;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+}
+.glyph-icon{
+	padding: 10px;
+	display: block;
+	font-family: "WooThemes_ecommerce";
+	font-size: 64px;
+	line-height: 1;
+}
+.glyph-icon:before{
+	content: attr(data-icon);
+}
+.class-name{
+	font-size: 12px;
+}
+.glyph > input{
+	display: block;
+	width: 100px;
+	margin: 5px auto;
+	text-align: center;
+	font-size: 12px;
+	cursor: text;
+}
+.glyph > input.icon-input{
+	font-family: "WooThemes_ecommerce";
+	font-size: 16px;
+	margin-bottom: 10px;
+}

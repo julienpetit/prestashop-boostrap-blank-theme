@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  .row-desktop.row-fluid {
+    width: 100%;
+  }
+  .row-desktop.row {
+    margin-left: 0;
+  }
+  .row-desktop > [class*="span"],
+  .row-desktop > [class*="span"] {
+    float: none;
+    display: block;
+    width: auto;
+    margin: 0;
+  }
+}

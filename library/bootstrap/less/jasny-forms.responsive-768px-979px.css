@@ -1,0 +1,26 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  .form-horizontal .control-label {
+    width: 100px;
+  }
+  .form-horizontal .controls {
+    margin-left: 110px;
+  }
+  .form-horizontal .form-actions {
+    padding-left: 110px;
+  }
+  .form-horizontal .well .control-label {
+    width: 80px;
+  }
+  .form-horizontal .well .controls {
+    margin-left: 90px;
+  }
+  .small-labels .control-group > label {
+    width: 50px;
+  }
+  .small-labels .controls {
+    margin-left: 60px;
+  }
+  .small-labels .form-actions {
+    padding-left: 60px;
+  }
+}

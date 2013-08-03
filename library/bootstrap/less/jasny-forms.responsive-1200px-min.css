@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+  .small-labels .control-group > label {
+    width: 80px;
+  }
+  .small-labels .controls {
+    margin-left: 100px;
+  }
+  .small-labels .form-actions {
+    padding-left: 100px;
+  }
+}
